@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: arial;
+}
+#showcase{
+   display: flex;
+   height: 100vh;
+   
+}
+#showcase-img{
+   background-image: url('../img/im.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px;
+  
+}
+#showcase-img div, #showcase hr, #showcase-img h1{
+   transform: translate(0%);
+   color: #fff;
+   text-align: center
+}
+
+#showcase-img div{
+   font-size: 25px;
+   line-height: 1.5em;
+}
+
+#showcase-img h1{
+   font-size: 40px;
+   padding-bottom: 20px;
+   text-decoration: underline;
+}
+
+#showcase-img:before{
+   position: fixed;
+   background: rgb(0, 0, 0, 0.6);
+   width: 50%;
+   left: 0;
+   top: 0px;
+   height: 100vh;
+   content: "" 
+}
+
+
+.login-half{
+   display: flex;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: #1DA1F2;
+   padding: 0 20px;
+  
+}
+
+.login-half h2{
+   margin-bottom: 20px;
+}
+
+.login-half .login{
+   padding: 10px 120px;
+   /* width: 120px; */
+   margin-bottom: 10px;
+   background-color: #1DA1F2;
+   border-radius: 5px;
+   border: none;
+   color: aliceblue;
+   font-weight: bold;
+   text-decoration: none
+   
+}
+
+.login-half .signup{
+   padding: 10px 120px;
+   /* width: 120px; */
+   margin-top: 10px;
+   background-color: #fff;
+   border-radius: 5px;
+   border: #1DA1F2 solid 1px;
+   color: #1DA1F2;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.login-half .login:hover{
+   background-color: rgb(9, 132, 209);
+   color: #fff;   
+}
+
+.login-half .signup:hover{
+   background-color: rgba(156, 203, 247, 0.637);
+   color: #1DA1F2;
+}

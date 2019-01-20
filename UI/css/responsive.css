@@ -1,0 +1,22 @@
+@media(max-width: 767px){
+  
+}
+@media(max-width: 480px){
+  #showcase{
+     flex-direction: column
+  }
+
+  #showcase-img:before{
+   width: 100%;
+   height: 50%;
+}
+#showcase-img div{
+   font-size: 18px;
+   line-height: 1.5em;
+}
+
+#showcase-img h1{
+   font-size: 30px;
+   padding-bottom: 20px;
+}
+}
